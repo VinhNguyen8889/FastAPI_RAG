@@ -57,7 +57,6 @@ project/
 │   └── test_ai_modules_with_fastAPI.py  # FastAPI-integrated AI tests
 ├── backend/
 │   └── main.py                 
-```
 ├── frontend/
 │   └── app.py                 
 ```
