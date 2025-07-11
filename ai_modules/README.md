@@ -32,14 +32,14 @@ There are **3 main functions** that the backend (BE) team can use:
 
 ### 1️. Run the **standalone AI tests**
 
-This will test your AI logic independently:
+This will test AI logic independently:
 
 ```bash
 python -m ai_modules.test_ai_modules
 ```
 ### 2. Run the **FastAPI-integrated AI tests**
 
-This will test AI functions as part of the API workflow:
+This will test AI functions with FastAPI:
 
 ```bash
 python -m ai_modules.test_ai_modules_with_fastAPI
@@ -57,4 +57,7 @@ project/
 │   └── test_ai_modules_with_fastAPI.py  # FastAPI-integrated AI tests
 ├── backend/
 │   └── main.py                 
+```
+├── frontend/
+│   └── app.py                 
 ```
