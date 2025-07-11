@@ -20,10 +20,10 @@ There are **3 main functions** that the backend (BE) team can use:
 1. `load_llm()`  
    ➤ Loads and returns the LLM pipeline (with quantization and tokenizer setup).
 
-2. `process_pdf(llm, pdf_path, embeddings)`  
+2. `process_pdf(pdf_path)`  
    ➤ Accepts a PDF file path, performs semantic chunking, creates a retriever for question answering.
 
-3. `generate_answer(rag_chain, question)`  
+3. `generate_answer(retriever, llm, query)`  
    ➤ Uses a LangChain `rag_chain` pipeline to answer a question based on retrieved context.
 
 ---
